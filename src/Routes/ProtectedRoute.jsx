@@ -17,7 +17,7 @@ const ProtectedRoute = () => {
     <Navigate
       to={"/login"}
       replace
-      state={{ redirecredFrom: currentLocation }}
+      state={{ redirecredFrom: currentLocation }} //redirectedFrom 스펠링이 이상합니다.//
     />
   );
 };
